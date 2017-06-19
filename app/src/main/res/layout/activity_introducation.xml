@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.everything22.bhanuprakashreddy.locashared.introactivity.IntroducationActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:titleTextColor="@color/white" >
+        </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="55dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliderDots"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="250dp">
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/intro_nestedscrollview"
+        android:layout_below="@id/sliderDots"
+        android:layout_marginTop="10dp"
+        >
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro_recycle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+      >
+
+    </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="135dp"
+    android:layout_width="180dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_education"
+        android:id="@+id/event_image_intro"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_text_into"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Bussiness"
+        android:textSize="15sp"/>
+
+
+
+
+
+</android.support.v7.widget.CardView>

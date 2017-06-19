@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">LocoShared</string>
+    <string name="enter_event_name_here">Enter Event Name Here</string>
+    <string name="event_description">Description</string>
+    <string name="event_location_name">Location Name</string>
+    <string name="button_post">Post</string>
+    <string name="address">Address</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in App now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="change_email_address">Change Email Address?</string>
+    <string name="we_just_need_another_valid_email_address">We Just Need Another Valid Email Address</string>
+    <string name="enter_new_email_here">Enter New Email Here</string>
+    <string name="menu_change_email">Change Email</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="menu_forget_password">Forget Password</string>
+    <string name="menu_delete_account">Delete Account</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="post_title">Post_title</string>
+    <string name="event_location">Event_location</string>
+
+
+    <string-array name="Image_Names">
+        <item> Bussiness </item>
+        <item> Education</item>
+        <item> WorkShops </item>
+        <item> Concerts </item>
+        <item> Exhibitions </item>
+        <item> Parties </item>
+        <item> MeetUps</item>
+        <item> Sports </item>
+        <item> Food And Drinks</item>
+        <item> Health </item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyCm7UTjhToex9Fj2mI2m8Rare5cugrlLw4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

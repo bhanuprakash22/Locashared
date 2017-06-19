@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nested_SingleView"
+    tools:context="com.wordpress.maddymindlinks.sharedplaces.singlePostActivity.SinglePostViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_toolbar_layout"
+            android:id="@+id/SingleviewTool"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image_SingleView"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_profile"
+            android:elevation="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Title:"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:textColor="@android:color/background_dark"
+            android:padding="7dp"
+            android:gravity="start"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Title:"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:padding="7dp"
+            android:gravity="start"
+            android:id="@+id/event_title_SingleView"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Desc:"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:padding="7dp"
+                android:gravity="start"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Desc:"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:padding="7dp"
+                android:gravity="start"
+                android:id="@+id/event_desc_SingleView"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:padding="7dp"
+                android:gravity="start"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:padding="7dp"
+                android:gravity="start"
+                android:id="@+id/event_address_SingleView"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No:"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:padding="7dp"
+                android:gravity="start"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No:"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:padding="7dp"
+                android:gravity="start"
+                android:id="@+id/event_ph_SingleView"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:textColor="@android:color/background_dark"
+                android:padding="7dp"
+                android:gravity="start"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:padding="7dp"
+                android:gravity="start"
+                android:id="@+id/event_location_SingleView"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

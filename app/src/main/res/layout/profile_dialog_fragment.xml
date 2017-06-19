@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relayout1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/linear1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:id="@+id/profile_circleview"
+                android:src="@drawable/ic_profile"
+                app:civ_border_width="5dp"
+                app:civ_border_color="@color/white"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maddy"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_profile_name"
+                    android:textSize="20dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status Will Update Soon............"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_profile_status"
+                    android:textSize="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linear1"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pro_til_name"
+                android:layout_marginTop="10dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:id="@+id/et_pro_name"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pro_til_address"
+                android:layout_marginTop="10dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:id="@+id/et_pro_address"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pro_til_eamil"
+                android:layout_marginTop="10dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="E-Mail"
+                    android:id="@+id/et_pro_email"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pro_til_mobile"
+                android:layout_marginTop="10dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile Number"
+                    android:id="@+id/et_pro_mobile"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_pro_save"
+                android:text="Save"
+                android:background="@color/bg_main"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
